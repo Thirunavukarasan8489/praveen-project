@@ -1,0 +1,58 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../images/gallery-15.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+  }
+  
+  input {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 10%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-message {
+    margin-top: 10px;
+    color: #f00;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some margin to separate the button from the form */
+  }

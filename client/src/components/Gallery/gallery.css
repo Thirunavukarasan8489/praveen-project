@@ -1,0 +1,35 @@
+.categoryButtons {
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.butt{
+    width: 85px;
+    margin-left: 5%;
+
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover
+}
+
+img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    /* transform: scale(1.1); */
+  }
+  
+  

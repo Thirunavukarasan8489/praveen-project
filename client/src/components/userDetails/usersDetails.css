@@ -1,0 +1,52 @@
+.userForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #7b8c91;
+    border-radius: 10px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: row; /* Change to row to keep label and input on the same line */
+    align-items: center; /* Align label and input vertically */
+  }
+  
+  .label {
+    width: 150px; /* Adjust the width as needed */
+    font-weight: bold;
+  }
+  .usrInput,
+  .submitBtn {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .submitBtn {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .msg {
+    font-size: 16px;
+    color: #f8f8f8;
+    margin-top: 10px;
+  }
+  
+  .usrContainer {
+    background-image: url('../../images/gallery-15.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .lab{
+    width: 110px;
+  }

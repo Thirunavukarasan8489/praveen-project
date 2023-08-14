@@ -1,0 +1,72 @@
+/* About.css */
+.about-container {
+    display: flex;
+    /* flex-direction: column;  */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text content */
+    margin: 50px;
+
+  }
+  
+  .about-image {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    border-radius: 10px;
+
+  }
+
+  .abt-image{
+    width: 400px;
+    height: 500px;
+  }
+  
+  .about-content {
+    flex: 2;
+    color: #fff;
+    text-align: initial;
+    margin-left: inherit;
+  }
+  
+  .about-heading {
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: rgb(16, 165, 36);
+  }
+  
+  .about-details {
+    font-size: 16px;
+    line-height: 1.6;
+    /* text-align: initial;
+    margin-left: 5%; */
+  }
+  .divider {
+    margin: 40px auto;
+    width: 75%;
+    border: 1px solid #fff; /* Set the color of the line */
+  }
+  .svgic{
+    width: 20px;
+  }
+  @media (max-width: 920px) {
+    .about-container {
+        flex-direction: column; /* Stack content on smaller screens */
+        align-items: center;
+    }
+
+    .about-image {
+        max-width: 100%; /* Take full width on smaller screens */
+        margin-bottom: 20px; /* Add some spacing between image and content */
+    }
+
+    .abt-image {
+        width: 100%; /* Make the image responsive */
+    }
+
+    .about-content {
+        flex: 1;
+        max-width: 100%; /* Take full width on smaller screens */
+    }
+}

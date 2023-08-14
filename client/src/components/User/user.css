@@ -1,0 +1,64 @@
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../images/gallery-15.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .user-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 3px 14px rgba(21, 31, -52, 2.1);
+    background-color: #ccc;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some margin to separate the button from the form */
+  }
+  button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .registration-message {
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  .login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

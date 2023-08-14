@@ -1,0 +1,53 @@
+/* Pay.css */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .pay-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+    margin-bottom: 100px
+  }
+  
+  .pay-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-status {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #007bff;
+  }
+  
+  .cust{
+    color: #000;
+  }
